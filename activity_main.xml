@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu"
+    android:orientation="horizontal"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="333dp"
+        android:layout_gravity="center_vertical">
+
+        <com.ajwadshaikh.amazingautofitedittext.AmazingAutofitEditText
+            android:id="@+id/autofit"
+            android:layout_width="match_parent"
+            android:layout_height="333dp"
+            android:maxLength="80"
+            android:autoSizeMinTextSize="25dp"
+            android:hint="somthing Typing"
+            android:textSize="20dp" />
+    </FrameLayout>
+</LinearLayout>
